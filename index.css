@@ -1,0 +1,50 @@
+body {
+	font-family: futura;
+	text-align: center;
+	background-color: #36454F;
+}
+
+h1 {
+	width: 550px;
+	font-size: 50px;
+	border-style: double;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #D3D3D3;
+}
+
+button {
+	font-size: 20px;
+	width: 100px;
+	color: white;
+	background-color: black;
+}
+
+#background {
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-style: double;
+}
+
+#lineone {
+	width: 80%;
+	height: 1px;
+	background-color: #D3D3D3;
+
+}
+
+#linetwo, #linetop {
+	width: 70%;
+	height: 1px;
+	background-color: #D3D3D3;
+}
+
+#linetop {
+	margin-top: 15px;
+}

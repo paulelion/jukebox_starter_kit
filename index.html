@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		3Play Music Daily
+	</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<br>
+	<div id="background">
+	<hr noshade id="linetop">
+	<hr noshade id="lineone">
+	<h1>
+  		3Play Music Daily 
+	</h1>
+	<hr noshade id="lineone">
+	<hr noshade id="linetwo">
+	<br>
+	<br>
+
+		<div>
+  			<button onclick="Jukebox.selectSong(0)">Song 1</button>
+  				&nbsp; &nbsp; &nbsp;
+  			<button onclick="Jukebox.selectSong(1)">Song 2</button>
+  				&nbsp; &nbsp; &nbsp;
+  			<button onclick="Jukebox.selectSong(2)">Song 3</button>
+		</div>
+	<br>
+		<div class=buttons>
+  			<button id="play" onclick="Jukebox.playSong()">►</button>
+  				&nbsp; &nbsp; &nbsp;
+  			<button id="pause" onclick="Jukebox.pauseSong()">❚ ❚</button>
+  				&nbsp; &nbsp; &nbsp;
+  			<button id="next">►►</button>
+		</div>
+	
+	<h3 id="artist"></h3>
+	<h3 id="title"></h3>
+	</div>
+
+
+	<audio class="track" src="" autoplay>
+  		<source type="audio/mpeg">
+  		Your browser does not support HTML audio
+	</audio>
+
+	<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
